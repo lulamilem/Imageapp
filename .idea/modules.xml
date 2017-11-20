@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Imageapp.iml" filepath="$PROJECT_DIR$/Imageapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Imageswipeapp.iml" filepath="$PROJECT_DIR$/.idea/Imageswipeapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
