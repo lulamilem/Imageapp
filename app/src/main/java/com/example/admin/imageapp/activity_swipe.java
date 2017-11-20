@@ -6,12 +6,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 /**
- * Created by Torab on 20-May-16.
+ * Created by Loux on 20-November-2017.
  */
 public class activity_swipe extends PagerAdapter {
+
     private int [] imageResources ={R.drawable.capture1,R.drawable.capture2,R.drawable.capture3,R.drawable.capture4,R.drawable.capture5};
     private Context ctx;
     private LayoutInflater layoutInflater;
