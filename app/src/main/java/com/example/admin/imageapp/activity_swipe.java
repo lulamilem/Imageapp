@@ -12,7 +12,7 @@ import android.widget.ImageView;
  */
 public class activity_swipe extends PagerAdapter {
 
-    private int [] imageResources ={R.drawable.capture1,R.drawable.capture2,R.drawable.capture3,R.drawable.capture4,R.drawable.capture5};
+    private int[] imageResources = {R.drawable.ima1, R.drawable.ima2, R.drawable.ima3, R.drawable.ima4};
     private Context ctx;
     private LayoutInflater layoutInflater;
 
