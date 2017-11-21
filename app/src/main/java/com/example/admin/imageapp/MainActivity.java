@@ -5,6 +5,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -60,6 +61,16 @@ public class MainActivity extends AppCompatActivity {
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+
+
+                RecyclerView ListViewCatalog = findViewById(R.id.recycler_view);
+                ImagesAdapter adapter = new ImagesAdapter(MainActivity.this, image);
+//                    Toast.makeText(CatalogActivity.this, ""+catalog.getCatalogtitle(), Toast.LENGTH_SHORT).show();
+                RecyclerView.LayoutManager layoutManager = null;
+                ListViewCatalog.setLayoutManager(layoutManager);
+
+                ListViewCatalog.setAdapter(adapter);
+
 
 
             }
